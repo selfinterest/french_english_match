@@ -1,0 +1,15 @@
+{
+  "name": "FindFrenchFiles",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^1.21.4",
+    "optimist": "^0.6.1"
+  }
+}
