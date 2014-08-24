@@ -48,7 +48,7 @@ describe("Process file module", function(){
 			];
 			processFiles = new ProcessFiles(files);
 			var pairs = processFiles.pairs;
-			expect(pairs).toEqual({});	
+			expect(pairs).toEqual({}); //no pairs	
 		})
 	});
 })

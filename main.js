@@ -13,6 +13,6 @@ var getFilesFromDir = new GetFilesFromDir(dir);
 var ProcessFiles = require("./lib/processFiles.js");
 var processFiles = new ProcessFiles(getFilesFromDir.files);
 processFiles.process();
-console.log(processFiles.pairs);
+console.log(processFiles.pairs + "\n");
 
 
